@@ -1,0 +1,31 @@
+.quote {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(114, 9, 121, 1) 35%,
+    rgba(119, 10, 221, 1) 100%
+  );
+  text-align: center;
+  color: wheat;
+  font-size: 1.2em;
+  padding: 0.4em;
+}
+
+.quote p {
+  font-size: 0.6em;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #111111;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline white 2px;
+}
